@@ -1,0 +1,12 @@
+bz:
+  clickhouse:
+    address: jdbc:clickhouse://127.0.0.1:8123
+    database: platform
+    username: default
+    password:
+
+  h2:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:workflow
+    username: h2
+    password: h2
